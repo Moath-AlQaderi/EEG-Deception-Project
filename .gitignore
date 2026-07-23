@@ -1,0 +1,20 @@
+.venv/
+.shap-venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+*.tmp
+
+# Download the original EEG data from the Figshare DOI documented in README.
+Dataset_32302035/
+
+# Reproducible local intermediates; final feature/results files remain tracked.
+cache/
+
+# Local cleanup rollback material is intentionally not published.
+project_cleanup_backup.zip
+EEG Deception Results.pre_cleanup_backup.ipynb
+EEG Deception Results.backup.ipynb
+_cleanup_archive/
+partial_runs/

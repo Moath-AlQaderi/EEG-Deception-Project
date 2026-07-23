@@ -1,0 +1,497 @@
+feature,display_feature
+f__C3__mean,C3 – Mean
+f__C3__standard_deviation,C3 – Standard deviation
+f__C3__variance,C3 – Variance
+f__C3__root_mean_square,C3 – Root mean square
+f__C3__minimum,C3 – Minimum
+f__C3__maximum,C3 – Maximum
+f__C3__peak_to_peak,C3 – Peak-to-peak amplitude
+f__C3__median,C3 – Median
+f__C3__interquartile_range,C3 – Interquartile range
+f__C3__skewness,C3 – Skewness
+f__C3__kurtosis,C3 – Kurtosis
+f__C3__mean_absolute_value,C3 – Mean absolute value
+f__C3__waveform_length,C3 – Waveform length
+f__C3__zero_crossing_rate,C3 – Zero-crossing rate
+f__C3__hjorth_activity,C3 – Hjorth activity
+f__C3__hjorth_mobility,C3 – Hjorth mobility
+f__C3__hjorth_complexity,C3 – Hjorth complexity
+f__C3__delta_power,C3 – Delta power
+f__C3__theta_power,C3 – Theta power
+f__C3__alpha_power,C3 – Alpha power
+f__C3__beta_power,C3 – Beta power
+f__C3__total_power_1_30_hz,C3 – Total power (1–30 Hz)
+f__C3__relative_delta_power,C3 – Relative delta power
+f__C3__relative_theta_power,C3 – Relative theta power
+f__C3__relative_alpha_power,C3 – Relative alpha power
+f__C3__relative_beta_power,C3 – Relative beta power
+f__C3__theta_to_alpha_ratio,C3 – Theta-to-alpha ratio
+f__C3__theta_to_beta_ratio,C3 – Theta-to-beta ratio
+f__C3__spectral_entropy,C3 – Spectral entropy
+f__C3__dominant_frequency,C3 – Dominant frequency
+f__C3__median_frequency,C3 – Median frequency
+f__C4__mean,C4 – Mean
+f__C4__standard_deviation,C4 – Standard deviation
+f__C4__variance,C4 – Variance
+f__C4__root_mean_square,C4 – Root mean square
+f__C4__minimum,C4 – Minimum
+f__C4__maximum,C4 – Maximum
+f__C4__peak_to_peak,C4 – Peak-to-peak amplitude
+f__C4__median,C4 – Median
+f__C4__interquartile_range,C4 – Interquartile range
+f__C4__skewness,C4 – Skewness
+f__C4__kurtosis,C4 – Kurtosis
+f__C4__mean_absolute_value,C4 – Mean absolute value
+f__C4__waveform_length,C4 – Waveform length
+f__C4__zero_crossing_rate,C4 – Zero-crossing rate
+f__C4__hjorth_activity,C4 – Hjorth activity
+f__C4__hjorth_mobility,C4 – Hjorth mobility
+f__C4__hjorth_complexity,C4 – Hjorth complexity
+f__C4__delta_power,C4 – Delta power
+f__C4__theta_power,C4 – Theta power
+f__C4__alpha_power,C4 – Alpha power
+f__C4__beta_power,C4 – Beta power
+f__C4__total_power_1_30_hz,C4 – Total power (1–30 Hz)
+f__C4__relative_delta_power,C4 – Relative delta power
+f__C4__relative_theta_power,C4 – Relative theta power
+f__C4__relative_alpha_power,C4 – Relative alpha power
+f__C4__relative_beta_power,C4 – Relative beta power
+f__C4__theta_to_alpha_ratio,C4 – Theta-to-alpha ratio
+f__C4__theta_to_beta_ratio,C4 – Theta-to-beta ratio
+f__C4__spectral_entropy,C4 – Spectral entropy
+f__C4__dominant_frequency,C4 – Dominant frequency
+f__C4__median_frequency,C4 – Median frequency
+f__Fp1__mean,Fp1 – Mean
+f__Fp1__standard_deviation,Fp1 – Standard deviation
+f__Fp1__variance,Fp1 – Variance
+f__Fp1__root_mean_square,Fp1 – Root mean square
+f__Fp1__minimum,Fp1 – Minimum
+f__Fp1__maximum,Fp1 – Maximum
+f__Fp1__peak_to_peak,Fp1 – Peak-to-peak amplitude
+f__Fp1__median,Fp1 – Median
+f__Fp1__interquartile_range,Fp1 – Interquartile range
+f__Fp1__skewness,Fp1 – Skewness
+f__Fp1__kurtosis,Fp1 – Kurtosis
+f__Fp1__mean_absolute_value,Fp1 – Mean absolute value
+f__Fp1__waveform_length,Fp1 – Waveform length
+f__Fp1__zero_crossing_rate,Fp1 – Zero-crossing rate
+f__Fp1__hjorth_activity,Fp1 – Hjorth activity
+f__Fp1__hjorth_mobility,Fp1 – Hjorth mobility
+f__Fp1__hjorth_complexity,Fp1 – Hjorth complexity
+f__Fp1__delta_power,Fp1 – Delta power
+f__Fp1__theta_power,Fp1 – Theta power
+f__Fp1__alpha_power,Fp1 – Alpha power
+f__Fp1__beta_power,Fp1 – Beta power
+f__Fp1__total_power_1_30_hz,Fp1 – Total power (1–30 Hz)
+f__Fp1__relative_delta_power,Fp1 – Relative delta power
+f__Fp1__relative_theta_power,Fp1 – Relative theta power
+f__Fp1__relative_alpha_power,Fp1 – Relative alpha power
+f__Fp1__relative_beta_power,Fp1 – Relative beta power
+f__Fp1__theta_to_alpha_ratio,Fp1 – Theta-to-alpha ratio
+f__Fp1__theta_to_beta_ratio,Fp1 – Theta-to-beta ratio
+f__Fp1__spectral_entropy,Fp1 – Spectral entropy
+f__Fp1__dominant_frequency,Fp1 – Dominant frequency
+f__Fp1__median_frequency,Fp1 – Median frequency
+f__Fp2__mean,Fp2 – Mean
+f__Fp2__standard_deviation,Fp2 – Standard deviation
+f__Fp2__variance,Fp2 – Variance
+f__Fp2__root_mean_square,Fp2 – Root mean square
+f__Fp2__minimum,Fp2 – Minimum
+f__Fp2__maximum,Fp2 – Maximum
+f__Fp2__peak_to_peak,Fp2 – Peak-to-peak amplitude
+f__Fp2__median,Fp2 – Median
+f__Fp2__interquartile_range,Fp2 – Interquartile range
+f__Fp2__skewness,Fp2 – Skewness
+f__Fp2__kurtosis,Fp2 – Kurtosis
+f__Fp2__mean_absolute_value,Fp2 – Mean absolute value
+f__Fp2__waveform_length,Fp2 – Waveform length
+f__Fp2__zero_crossing_rate,Fp2 – Zero-crossing rate
+f__Fp2__hjorth_activity,Fp2 – Hjorth activity
+f__Fp2__hjorth_mobility,Fp2 – Hjorth mobility
+f__Fp2__hjorth_complexity,Fp2 – Hjorth complexity
+f__Fp2__delta_power,Fp2 – Delta power
+f__Fp2__theta_power,Fp2 – Theta power
+f__Fp2__alpha_power,Fp2 – Alpha power
+f__Fp2__beta_power,Fp2 – Beta power
+f__Fp2__total_power_1_30_hz,Fp2 – Total power (1–30 Hz)
+f__Fp2__relative_delta_power,Fp2 – Relative delta power
+f__Fp2__relative_theta_power,Fp2 – Relative theta power
+f__Fp2__relative_alpha_power,Fp2 – Relative alpha power
+f__Fp2__relative_beta_power,Fp2 – Relative beta power
+f__Fp2__theta_to_alpha_ratio,Fp2 – Theta-to-alpha ratio
+f__Fp2__theta_to_beta_ratio,Fp2 – Theta-to-beta ratio
+f__Fp2__spectral_entropy,Fp2 – Spectral entropy
+f__Fp2__dominant_frequency,Fp2 – Dominant frequency
+f__Fp2__median_frequency,Fp2 – Median frequency
+f__F4__mean,F4 – Mean
+f__F4__standard_deviation,F4 – Standard deviation
+f__F4__variance,F4 – Variance
+f__F4__root_mean_square,F4 – Root mean square
+f__F4__minimum,F4 – Minimum
+f__F4__maximum,F4 – Maximum
+f__F4__peak_to_peak,F4 – Peak-to-peak amplitude
+f__F4__median,F4 – Median
+f__F4__interquartile_range,F4 – Interquartile range
+f__F4__skewness,F4 – Skewness
+f__F4__kurtosis,F4 – Kurtosis
+f__F4__mean_absolute_value,F4 – Mean absolute value
+f__F4__waveform_length,F4 – Waveform length
+f__F4__zero_crossing_rate,F4 – Zero-crossing rate
+f__F4__hjorth_activity,F4 – Hjorth activity
+f__F4__hjorth_mobility,F4 – Hjorth mobility
+f__F4__hjorth_complexity,F4 – Hjorth complexity
+f__F4__delta_power,F4 – Delta power
+f__F4__theta_power,F4 – Theta power
+f__F4__alpha_power,F4 – Alpha power
+f__F4__beta_power,F4 – Beta power
+f__F4__total_power_1_30_hz,F4 – Total power (1–30 Hz)
+f__F4__relative_delta_power,F4 – Relative delta power
+f__F4__relative_theta_power,F4 – Relative theta power
+f__F4__relative_alpha_power,F4 – Relative alpha power
+f__F4__relative_beta_power,F4 – Relative beta power
+f__F4__theta_to_alpha_ratio,F4 – Theta-to-alpha ratio
+f__F4__theta_to_beta_ratio,F4 – Theta-to-beta ratio
+f__F4__spectral_entropy,F4 – Spectral entropy
+f__F4__dominant_frequency,F4 – Dominant frequency
+f__F4__median_frequency,F4 – Median frequency
+f__Fz__mean,Fz – Mean
+f__Fz__standard_deviation,Fz – Standard deviation
+f__Fz__variance,Fz – Variance
+f__Fz__root_mean_square,Fz – Root mean square
+f__Fz__minimum,Fz – Minimum
+f__Fz__maximum,Fz – Maximum
+f__Fz__peak_to_peak,Fz – Peak-to-peak amplitude
+f__Fz__median,Fz – Median
+f__Fz__interquartile_range,Fz – Interquartile range
+f__Fz__skewness,Fz – Skewness
+f__Fz__kurtosis,Fz – Kurtosis
+f__Fz__mean_absolute_value,Fz – Mean absolute value
+f__Fz__waveform_length,Fz – Waveform length
+f__Fz__zero_crossing_rate,Fz – Zero-crossing rate
+f__Fz__hjorth_activity,Fz – Hjorth activity
+f__Fz__hjorth_mobility,Fz – Hjorth mobility
+f__Fz__hjorth_complexity,Fz – Hjorth complexity
+f__Fz__delta_power,Fz – Delta power
+f__Fz__theta_power,Fz – Theta power
+f__Fz__alpha_power,Fz – Alpha power
+f__Fz__beta_power,Fz – Beta power
+f__Fz__total_power_1_30_hz,Fz – Total power (1–30 Hz)
+f__Fz__relative_delta_power,Fz – Relative delta power
+f__Fz__relative_theta_power,Fz – Relative theta power
+f__Fz__relative_alpha_power,Fz – Relative alpha power
+f__Fz__relative_beta_power,Fz – Relative beta power
+f__Fz__theta_to_alpha_ratio,Fz – Theta-to-alpha ratio
+f__Fz__theta_to_beta_ratio,Fz – Theta-to-beta ratio
+f__Fz__spectral_entropy,Fz – Spectral entropy
+f__Fz__dominant_frequency,Fz – Dominant frequency
+f__Fz__median_frequency,Fz – Median frequency
+f__F3__mean,F3 – Mean
+f__F3__standard_deviation,F3 – Standard deviation
+f__F3__variance,F3 – Variance
+f__F3__root_mean_square,F3 – Root mean square
+f__F3__minimum,F3 – Minimum
+f__F3__maximum,F3 – Maximum
+f__F3__peak_to_peak,F3 – Peak-to-peak amplitude
+f__F3__median,F3 – Median
+f__F3__interquartile_range,F3 – Interquartile range
+f__F3__skewness,F3 – Skewness
+f__F3__kurtosis,F3 – Kurtosis
+f__F3__mean_absolute_value,F3 – Mean absolute value
+f__F3__waveform_length,F3 – Waveform length
+f__F3__zero_crossing_rate,F3 – Zero-crossing rate
+f__F3__hjorth_activity,F3 – Hjorth activity
+f__F3__hjorth_mobility,F3 – Hjorth mobility
+f__F3__hjorth_complexity,F3 – Hjorth complexity
+f__F3__delta_power,F3 – Delta power
+f__F3__theta_power,F3 – Theta power
+f__F3__alpha_power,F3 – Alpha power
+f__F3__beta_power,F3 – Beta power
+f__F3__total_power_1_30_hz,F3 – Total power (1–30 Hz)
+f__F3__relative_delta_power,F3 – Relative delta power
+f__F3__relative_theta_power,F3 – Relative theta power
+f__F3__relative_alpha_power,F3 – Relative alpha power
+f__F3__relative_beta_power,F3 – Relative beta power
+f__F3__theta_to_alpha_ratio,F3 – Theta-to-alpha ratio
+f__F3__theta_to_beta_ratio,F3 – Theta-to-beta ratio
+f__F3__spectral_entropy,F3 – Spectral entropy
+f__F3__dominant_frequency,F3 – Dominant frequency
+f__F3__median_frequency,F3 – Median frequency
+f__T7__mean,T7 – Mean
+f__T7__standard_deviation,T7 – Standard deviation
+f__T7__variance,T7 – Variance
+f__T7__root_mean_square,T7 – Root mean square
+f__T7__minimum,T7 – Minimum
+f__T7__maximum,T7 – Maximum
+f__T7__peak_to_peak,T7 – Peak-to-peak amplitude
+f__T7__median,T7 – Median
+f__T7__interquartile_range,T7 – Interquartile range
+f__T7__skewness,T7 – Skewness
+f__T7__kurtosis,T7 – Kurtosis
+f__T7__mean_absolute_value,T7 – Mean absolute value
+f__T7__waveform_length,T7 – Waveform length
+f__T7__zero_crossing_rate,T7 – Zero-crossing rate
+f__T7__hjorth_activity,T7 – Hjorth activity
+f__T7__hjorth_mobility,T7 – Hjorth mobility
+f__T7__hjorth_complexity,T7 – Hjorth complexity
+f__T7__delta_power,T7 – Delta power
+f__T7__theta_power,T7 – Theta power
+f__T7__alpha_power,T7 – Alpha power
+f__T7__beta_power,T7 – Beta power
+f__T7__total_power_1_30_hz,T7 – Total power (1–30 Hz)
+f__T7__relative_delta_power,T7 – Relative delta power
+f__T7__relative_theta_power,T7 – Relative theta power
+f__T7__relative_alpha_power,T7 – Relative alpha power
+f__T7__relative_beta_power,T7 – Relative beta power
+f__T7__theta_to_alpha_ratio,T7 – Theta-to-alpha ratio
+f__T7__theta_to_beta_ratio,T7 – Theta-to-beta ratio
+f__T7__spectral_entropy,T7 – Spectral entropy
+f__T7__dominant_frequency,T7 – Dominant frequency
+f__T7__median_frequency,T7 – Median frequency
+f__Cz__mean,Cz – Mean
+f__Cz__standard_deviation,Cz – Standard deviation
+f__Cz__variance,Cz – Variance
+f__Cz__root_mean_square,Cz – Root mean square
+f__Cz__minimum,Cz – Minimum
+f__Cz__maximum,Cz – Maximum
+f__Cz__peak_to_peak,Cz – Peak-to-peak amplitude
+f__Cz__median,Cz – Median
+f__Cz__interquartile_range,Cz – Interquartile range
+f__Cz__skewness,Cz – Skewness
+f__Cz__kurtosis,Cz – Kurtosis
+f__Cz__mean_absolute_value,Cz – Mean absolute value
+f__Cz__waveform_length,Cz – Waveform length
+f__Cz__zero_crossing_rate,Cz – Zero-crossing rate
+f__Cz__hjorth_activity,Cz – Hjorth activity
+f__Cz__hjorth_mobility,Cz – Hjorth mobility
+f__Cz__hjorth_complexity,Cz – Hjorth complexity
+f__Cz__delta_power,Cz – Delta power
+f__Cz__theta_power,Cz – Theta power
+f__Cz__alpha_power,Cz – Alpha power
+f__Cz__beta_power,Cz – Beta power
+f__Cz__total_power_1_30_hz,Cz – Total power (1–30 Hz)
+f__Cz__relative_delta_power,Cz – Relative delta power
+f__Cz__relative_theta_power,Cz – Relative theta power
+f__Cz__relative_alpha_power,Cz – Relative alpha power
+f__Cz__relative_beta_power,Cz – Relative beta power
+f__Cz__theta_to_alpha_ratio,Cz – Theta-to-alpha ratio
+f__Cz__theta_to_beta_ratio,Cz – Theta-to-beta ratio
+f__Cz__spectral_entropy,Cz – Spectral entropy
+f__Cz__dominant_frequency,Cz – Dominant frequency
+f__Cz__median_frequency,Cz – Median frequency
+f__T8__mean,T8 – Mean
+f__T8__standard_deviation,T8 – Standard deviation
+f__T8__variance,T8 – Variance
+f__T8__root_mean_square,T8 – Root mean square
+f__T8__minimum,T8 – Minimum
+f__T8__maximum,T8 – Maximum
+f__T8__peak_to_peak,T8 – Peak-to-peak amplitude
+f__T8__median,T8 – Median
+f__T8__interquartile_range,T8 – Interquartile range
+f__T8__skewness,T8 – Skewness
+f__T8__kurtosis,T8 – Kurtosis
+f__T8__mean_absolute_value,T8 – Mean absolute value
+f__T8__waveform_length,T8 – Waveform length
+f__T8__zero_crossing_rate,T8 – Zero-crossing rate
+f__T8__hjorth_activity,T8 – Hjorth activity
+f__T8__hjorth_mobility,T8 – Hjorth mobility
+f__T8__hjorth_complexity,T8 – Hjorth complexity
+f__T8__delta_power,T8 – Delta power
+f__T8__theta_power,T8 – Theta power
+f__T8__alpha_power,T8 – Alpha power
+f__T8__beta_power,T8 – Beta power
+f__T8__total_power_1_30_hz,T8 – Total power (1–30 Hz)
+f__T8__relative_delta_power,T8 – Relative delta power
+f__T8__relative_theta_power,T8 – Relative theta power
+f__T8__relative_alpha_power,T8 – Relative alpha power
+f__T8__relative_beta_power,T8 – Relative beta power
+f__T8__theta_to_alpha_ratio,T8 – Theta-to-alpha ratio
+f__T8__theta_to_beta_ratio,T8 – Theta-to-beta ratio
+f__T8__spectral_entropy,T8 – Spectral entropy
+f__T8__dominant_frequency,T8 – Dominant frequency
+f__T8__median_frequency,T8 – Median frequency
+f__P4__mean,P4 – Mean
+f__P4__standard_deviation,P4 – Standard deviation
+f__P4__variance,P4 – Variance
+f__P4__root_mean_square,P4 – Root mean square
+f__P4__minimum,P4 – Minimum
+f__P4__maximum,P4 – Maximum
+f__P4__peak_to_peak,P4 – Peak-to-peak amplitude
+f__P4__median,P4 – Median
+f__P4__interquartile_range,P4 – Interquartile range
+f__P4__skewness,P4 – Skewness
+f__P4__kurtosis,P4 – Kurtosis
+f__P4__mean_absolute_value,P4 – Mean absolute value
+f__P4__waveform_length,P4 – Waveform length
+f__P4__zero_crossing_rate,P4 – Zero-crossing rate
+f__P4__hjorth_activity,P4 – Hjorth activity
+f__P4__hjorth_mobility,P4 – Hjorth mobility
+f__P4__hjorth_complexity,P4 – Hjorth complexity
+f__P4__delta_power,P4 – Delta power
+f__P4__theta_power,P4 – Theta power
+f__P4__alpha_power,P4 – Alpha power
+f__P4__beta_power,P4 – Beta power
+f__P4__total_power_1_30_hz,P4 – Total power (1–30 Hz)
+f__P4__relative_delta_power,P4 – Relative delta power
+f__P4__relative_theta_power,P4 – Relative theta power
+f__P4__relative_alpha_power,P4 – Relative alpha power
+f__P4__relative_beta_power,P4 – Relative beta power
+f__P4__theta_to_alpha_ratio,P4 – Theta-to-alpha ratio
+f__P4__theta_to_beta_ratio,P4 – Theta-to-beta ratio
+f__P4__spectral_entropy,P4 – Spectral entropy
+f__P4__dominant_frequency,P4 – Dominant frequency
+f__P4__median_frequency,P4 – Median frequency
+f__Pz__mean,Pz – Mean
+f__Pz__standard_deviation,Pz – Standard deviation
+f__Pz__variance,Pz – Variance
+f__Pz__root_mean_square,Pz – Root mean square
+f__Pz__minimum,Pz – Minimum
+f__Pz__maximum,Pz – Maximum
+f__Pz__peak_to_peak,Pz – Peak-to-peak amplitude
+f__Pz__median,Pz – Median
+f__Pz__interquartile_range,Pz – Interquartile range
+f__Pz__skewness,Pz – Skewness
+f__Pz__kurtosis,Pz – Kurtosis
+f__Pz__mean_absolute_value,Pz – Mean absolute value
+f__Pz__waveform_length,Pz – Waveform length
+f__Pz__zero_crossing_rate,Pz – Zero-crossing rate
+f__Pz__hjorth_activity,Pz – Hjorth activity
+f__Pz__hjorth_mobility,Pz – Hjorth mobility
+f__Pz__hjorth_complexity,Pz – Hjorth complexity
+f__Pz__delta_power,Pz – Delta power
+f__Pz__theta_power,Pz – Theta power
+f__Pz__alpha_power,Pz – Alpha power
+f__Pz__beta_power,Pz – Beta power
+f__Pz__total_power_1_30_hz,Pz – Total power (1–30 Hz)
+f__Pz__relative_delta_power,Pz – Relative delta power
+f__Pz__relative_theta_power,Pz – Relative theta power
+f__Pz__relative_alpha_power,Pz – Relative alpha power
+f__Pz__relative_beta_power,Pz – Relative beta power
+f__Pz__theta_to_alpha_ratio,Pz – Theta-to-alpha ratio
+f__Pz__theta_to_beta_ratio,Pz – Theta-to-beta ratio
+f__Pz__spectral_entropy,Pz – Spectral entropy
+f__Pz__dominant_frequency,Pz – Dominant frequency
+f__Pz__median_frequency,Pz – Median frequency
+f__P3__mean,P3 – Mean
+f__P3__standard_deviation,P3 – Standard deviation
+f__P3__variance,P3 – Variance
+f__P3__root_mean_square,P3 – Root mean square
+f__P3__minimum,P3 – Minimum
+f__P3__maximum,P3 – Maximum
+f__P3__peak_to_peak,P3 – Peak-to-peak amplitude
+f__P3__median,P3 – Median
+f__P3__interquartile_range,P3 – Interquartile range
+f__P3__skewness,P3 – Skewness
+f__P3__kurtosis,P3 – Kurtosis
+f__P3__mean_absolute_value,P3 – Mean absolute value
+f__P3__waveform_length,P3 – Waveform length
+f__P3__zero_crossing_rate,P3 – Zero-crossing rate
+f__P3__hjorth_activity,P3 – Hjorth activity
+f__P3__hjorth_mobility,P3 – Hjorth mobility
+f__P3__hjorth_complexity,P3 – Hjorth complexity
+f__P3__delta_power,P3 – Delta power
+f__P3__theta_power,P3 – Theta power
+f__P3__alpha_power,P3 – Alpha power
+f__P3__beta_power,P3 – Beta power
+f__P3__total_power_1_30_hz,P3 – Total power (1–30 Hz)
+f__P3__relative_delta_power,P3 – Relative delta power
+f__P3__relative_theta_power,P3 – Relative theta power
+f__P3__relative_alpha_power,P3 – Relative alpha power
+f__P3__relative_beta_power,P3 – Relative beta power
+f__P3__theta_to_alpha_ratio,P3 – Theta-to-alpha ratio
+f__P3__theta_to_beta_ratio,P3 – Theta-to-beta ratio
+f__P3__spectral_entropy,P3 – Spectral entropy
+f__P3__dominant_frequency,P3 – Dominant frequency
+f__P3__median_frequency,P3 – Median frequency
+f__O1__mean,O1 – Mean
+f__O1__standard_deviation,O1 – Standard deviation
+f__O1__variance,O1 – Variance
+f__O1__root_mean_square,O1 – Root mean square
+f__O1__minimum,O1 – Minimum
+f__O1__maximum,O1 – Maximum
+f__O1__peak_to_peak,O1 – Peak-to-peak amplitude
+f__O1__median,O1 – Median
+f__O1__interquartile_range,O1 – Interquartile range
+f__O1__skewness,O1 – Skewness
+f__O1__kurtosis,O1 – Kurtosis
+f__O1__mean_absolute_value,O1 – Mean absolute value
+f__O1__waveform_length,O1 – Waveform length
+f__O1__zero_crossing_rate,O1 – Zero-crossing rate
+f__O1__hjorth_activity,O1 – Hjorth activity
+f__O1__hjorth_mobility,O1 – Hjorth mobility
+f__O1__hjorth_complexity,O1 – Hjorth complexity
+f__O1__delta_power,O1 – Delta power
+f__O1__theta_power,O1 – Theta power
+f__O1__alpha_power,O1 – Alpha power
+f__O1__beta_power,O1 – Beta power
+f__O1__total_power_1_30_hz,O1 – Total power (1–30 Hz)
+f__O1__relative_delta_power,O1 – Relative delta power
+f__O1__relative_theta_power,O1 – Relative theta power
+f__O1__relative_alpha_power,O1 – Relative alpha power
+f__O1__relative_beta_power,O1 – Relative beta power
+f__O1__theta_to_alpha_ratio,O1 – Theta-to-alpha ratio
+f__O1__theta_to_beta_ratio,O1 – Theta-to-beta ratio
+f__O1__spectral_entropy,O1 – Spectral entropy
+f__O1__dominant_frequency,O1 – Dominant frequency
+f__O1__median_frequency,O1 – Median frequency
+f__Oz__mean,Oz – Mean
+f__Oz__standard_deviation,Oz – Standard deviation
+f__Oz__variance,Oz – Variance
+f__Oz__root_mean_square,Oz – Root mean square
+f__Oz__minimum,Oz – Minimum
+f__Oz__maximum,Oz – Maximum
+f__Oz__peak_to_peak,Oz – Peak-to-peak amplitude
+f__Oz__median,Oz – Median
+f__Oz__interquartile_range,Oz – Interquartile range
+f__Oz__skewness,Oz – Skewness
+f__Oz__kurtosis,Oz – Kurtosis
+f__Oz__mean_absolute_value,Oz – Mean absolute value
+f__Oz__waveform_length,Oz – Waveform length
+f__Oz__zero_crossing_rate,Oz – Zero-crossing rate
+f__Oz__hjorth_activity,Oz – Hjorth activity
+f__Oz__hjorth_mobility,Oz – Hjorth mobility
+f__Oz__hjorth_complexity,Oz – Hjorth complexity
+f__Oz__delta_power,Oz – Delta power
+f__Oz__theta_power,Oz – Theta power
+f__Oz__alpha_power,Oz – Alpha power
+f__Oz__beta_power,Oz – Beta power
+f__Oz__total_power_1_30_hz,Oz – Total power (1–30 Hz)
+f__Oz__relative_delta_power,Oz – Relative delta power
+f__Oz__relative_theta_power,Oz – Relative theta power
+f__Oz__relative_alpha_power,Oz – Relative alpha power
+f__Oz__relative_beta_power,Oz – Relative beta power
+f__Oz__theta_to_alpha_ratio,Oz – Theta-to-alpha ratio
+f__Oz__theta_to_beta_ratio,Oz – Theta-to-beta ratio
+f__Oz__spectral_entropy,Oz – Spectral entropy
+f__Oz__dominant_frequency,Oz – Dominant frequency
+f__Oz__median_frequency,Oz – Median frequency
+f__O2__mean,O2 – Mean
+f__O2__standard_deviation,O2 – Standard deviation
+f__O2__variance,O2 – Variance
+f__O2__root_mean_square,O2 – Root mean square
+f__O2__minimum,O2 – Minimum
+f__O2__maximum,O2 – Maximum
+f__O2__peak_to_peak,O2 – Peak-to-peak amplitude
+f__O2__median,O2 – Median
+f__O2__interquartile_range,O2 – Interquartile range
+f__O2__skewness,O2 – Skewness
+f__O2__kurtosis,O2 – Kurtosis
+f__O2__mean_absolute_value,O2 – Mean absolute value
+f__O2__waveform_length,O2 – Waveform length
+f__O2__zero_crossing_rate,O2 – Zero-crossing rate
+f__O2__hjorth_activity,O2 – Hjorth activity
+f__O2__hjorth_mobility,O2 – Hjorth mobility
+f__O2__hjorth_complexity,O2 – Hjorth complexity
+f__O2__delta_power,O2 – Delta power
+f__O2__theta_power,O2 – Theta power
+f__O2__alpha_power,O2 – Alpha power
+f__O2__beta_power,O2 – Beta power
+f__O2__total_power_1_30_hz,O2 – Total power (1–30 Hz)
+f__O2__relative_delta_power,O2 – Relative delta power
+f__O2__relative_theta_power,O2 – Relative theta power
+f__O2__relative_alpha_power,O2 – Relative alpha power
+f__O2__relative_beta_power,O2 – Relative beta power
+f__O2__theta_to_alpha_ratio,O2 – Theta-to-alpha ratio
+f__O2__theta_to_beta_ratio,O2 – Theta-to-beta ratio
+f__O2__spectral_entropy,O2 – Spectral entropy
+f__O2__dominant_frequency,O2 – Dominant frequency
+f__O2__median_frequency,O2 – Median frequency

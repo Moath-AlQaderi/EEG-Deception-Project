@@ -1,0 +1,202 @@
+{
+  "trial_count": 952,
+  "session_count": 17,
+  "participant_count": 51,
+  "role_counts": {
+    "1": 238,
+    "2": 238,
+    "3": 238,
+    "4": 238
+  },
+  "question_counts": {
+    "Q01": 68,
+    "Q02": 68,
+    "Q03": 68,
+    "Q04": 68,
+    "Q05": 68,
+    "Q06": 68,
+    "Q07": 68,
+    "Q08": 68,
+    "Q09": 68,
+    "Q10": 68,
+    "Q11": 68,
+    "Q12": 68,
+    "Q13": 68,
+    "Q14": 68
+  },
+  "session_trial_counts": {
+    "Session1": 56,
+    "Session2": 56,
+    "Session3": 56,
+    "Session4": 56,
+    "Session5": 56,
+    "Session6": 56,
+    "Session7": 56,
+    "Session8": 56,
+    "Session9": 56,
+    "Session10": 56,
+    "Session11": 56,
+    "Session12": 56,
+    "Session13": 56,
+    "Session14": 56,
+    "Session15": 56,
+    "Session16": 56,
+    "Session17": 56
+  },
+  "sampling_rates_hz": [
+    2048.0
+  ],
+  "channel_counts": [
+    16
+  ],
+  "structurally_valid_count": 952,
+  "structurally_invalid_count": 0,
+  "phase_duration_seconds": {
+    "rest": {
+      "minimum": 0.5,
+      "median": 0.5,
+      "maximum": 0.5
+    },
+    "question": {
+      "minimum": 4.955078125,
+      "median": 4.9658203125,
+      "maximum": 5.0
+    },
+    "answers": {
+      "minimum": 25.18408203125,
+      "median": 29.88232421875,
+      "maximum": 29.90087890625
+    },
+    "thinking": {
+      "minimum": 5.8525390625,
+      "median": 5.87451171875,
+      "maximum": 6.00146484375
+    },
+    "response": {
+      "minimum": 2.0,
+      "median": 2.0,
+      "maximum": 2.0
+    }
+  },
+  "structural_issue_counts": {},
+  "duration_issue_counts": {
+    "unexpected_thinking_duration": 952,
+    "unexpected_answers_duration": 4
+  },
+  "noncanonical_question_padding_files": [
+    "Session2_P06_R03_Q001.mat",
+    "Session8_P24_R04_Q007.mat",
+    "Session10_P29_R02_Q004.mat",
+    "Session15_P45_R01_Q011.mat",
+    "Session17_P51_R01_Q001.mat"
+  ],
+  "split_counts": {
+    "train": 728,
+    "test": 224
+  },
+  "split_sessions": {
+    "train": [
+      "Session2",
+      "Session3",
+      "Session4",
+      "Session5",
+      "Session6",
+      "Session7",
+      "Session9",
+      "Session11",
+      "Session12",
+      "Session13",
+      "Session15",
+      "Session16",
+      "Session17"
+    ],
+    "test": [
+      "Session1",
+      "Session8",
+      "Session10",
+      "Session14"
+    ]
+  },
+  "paper_path": "A Multi-Class EEG Dataset for Behavioral Roles in Deception Honesty, Bluffing, Lying, and Deceiving.pdf",
+  "dataset_root": "Dataset_32302035/Mock_Crime_Scenario_Dataset",
+  "group_split": {
+    "method": "sklearn.model_selection.GroupShuffleSplit",
+    "group_column": "session_id",
+    "group_dtype": "string",
+    "n_splits": 1,
+    "test_size": 0.2,
+    "random_state": 42,
+    "note": "0.20 of 17 groups rounds up to 4 sessions (23.529% of this balanced corpus)",
+    "train_sessions": [
+      "Session2",
+      "Session3",
+      "Session4",
+      "Session5",
+      "Session6",
+      "Session7",
+      "Session9",
+      "Session11",
+      "Session12",
+      "Session13",
+      "Session15",
+      "Session16",
+      "Session17"
+    ],
+    "test_sessions": [
+      "Session1",
+      "Session8",
+      "Session10",
+      "Session14"
+    ],
+    "train_trial_count": 728,
+    "test_trial_count": 224,
+    "train_participant_count": 39,
+    "test_participant_count": 12,
+    "leakage_checks": {
+      "passed": true,
+      "checks": {
+        "split_values_are_train_test": true,
+        "train_sessions_match_frozen_assignment": true,
+        "test_sessions_match_frozen_assignment": true,
+        "session_sets_disjoint": true,
+        "one_split_per_session": true,
+        "one_split_per_participant": true,
+        "participant_belongs_to_one_session": true,
+        "trial_ids_unique": true,
+        "one_split_per_trial": true,
+        "participant_sets_disjoint": true,
+        "trial_sets_disjoint": true,
+        "all_raw_trials_assigned_once": true,
+        "participant_counts_are_39_12": true,
+        "raw_role_counts_are_balanced": true,
+        "liar_deceiver_blocks_complete": true,
+        "liar_deceiver_blocks_share_split": true
+      },
+      "train_sessions": [
+        "Session2",
+        "Session3",
+        "Session4",
+        "Session5",
+        "Session6",
+        "Session7",
+        "Session9",
+        "Session11",
+        "Session12",
+        "Session13",
+        "Session15",
+        "Session16",
+        "Session17"
+      ],
+      "test_sessions": [
+        "Session1",
+        "Session8",
+        "Session10",
+        "Session14"
+      ],
+      "train_participants": 39,
+      "test_participants": 12,
+      "train_trials": 728,
+      "test_trials": 224
+    }
+  }
+}

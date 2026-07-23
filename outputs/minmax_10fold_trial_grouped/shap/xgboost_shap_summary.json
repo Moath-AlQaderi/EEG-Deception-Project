@@ -1,0 +1,227 @@
+{
+  "status": "complete",
+  "method": {
+    "explainer": "shap.TreeExplainer",
+    "feature_perturbation": "tree_path_dependent",
+    "model_output": "raw XGBoost class margins",
+    "importance": "mean absolute SHAP value",
+    "background_data": "none",
+    "subset_used": false,
+    "seed": 42,
+    "batch_size": 128
+  },
+  "source": {
+    "features": "outputs/window_features.csv",
+    "features_sha256": "a630bf7eb3b8b538e48fd4b0adf870c51a28d57adddd7bf05ee3958357d24d6e",
+    "fold_assignments": "outputs/minmax_10fold_trial_grouped/fold_assignments.csv",
+    "oof_window_predictions": "outputs/minmax_10fold_trial_grouped/oof_window_predictions.csv",
+    "models_directory": "saved_models/minmax_10fold_trial_grouped/xgboost",
+    "parent_manifest": "outputs/minmax_10fold_trial_grouped/reproducibility_manifest.json",
+    "notebook": "EEG Deception Results.ipynb",
+    "notebook_backup_preserved": "EEG Deception Results.backup.ipynb"
+  },
+  "coverage": {
+    "out_of_fold_windows_explained": 7200,
+    "folds_processed": 10,
+    "windows_per_fold": {
+      "1": 720,
+      "2": 720,
+      "3": 720,
+      "4": 720,
+      "5": 720,
+      "6": 720,
+      "7": 720,
+      "8": 720,
+      "9": 720,
+      "10": 720
+    },
+    "participants_may_overlap_across_folds": true,
+    "trial_overlap_within_fold": 0,
+    "each_window_explained_exactly_once": true
+  },
+  "shap_array_shape": [
+    7200,
+    496,
+    4
+  ],
+  "input_feature_count": 496,
+  "class_order": [
+    {
+      "internal_label": 0,
+      "class_name": "Honest"
+    },
+    {
+      "internal_label": 1,
+      "class_name": "Bluffer"
+    },
+    {
+      "internal_label": 2,
+      "class_name": "Liar"
+    },
+    {
+      "internal_label": 3,
+      "class_name": "Deceiver"
+    }
+  ],
+  "top20_features": [
+    "f__T8__waveform_length",
+    "f__O2__waveform_length",
+    "f__Cz__waveform_length",
+    "f__P4__waveform_length",
+    "f__C4__waveform_length",
+    "f__F3__waveform_length",
+    "f__T7__waveform_length",
+    "f__Fz__waveform_length",
+    "f__C3__waveform_length",
+    "f__F4__waveform_length",
+    "f__O1__waveform_length",
+    "f__Fp2__waveform_length",
+    "f__Fp2__beta_power",
+    "f__P3__waveform_length",
+    "f__Fp1__waveform_length",
+    "f__Oz__waveform_length",
+    "f__C4__standard_deviation",
+    "f__Pz__waveform_length",
+    "f__T8__beta_power",
+    "f__O2__total_power_1_30_hz"
+  ],
+  "top_three": [
+    {
+      "feature": "f__T8__waveform_length",
+      "display_feature": "T8 – Waveform length",
+      "global_mean_abs_shap": 0.24233139571018686,
+      "largest_class": "Bluffer",
+      "largest_class_mean_abs_shap": 0.38397218578523484
+    },
+    {
+      "feature": "f__O2__waveform_length",
+      "display_feature": "O2 – Waveform length",
+      "global_mean_abs_shap": 0.23111673906440575,
+      "largest_class": "Liar",
+      "largest_class_mean_abs_shap": 0.3468646419078444
+    },
+    {
+      "feature": "f__Cz__waveform_length",
+      "display_feature": "Cz – Waveform length",
+      "global_mean_abs_shap": 0.22673146139562478,
+      "largest_class": "Bluffer",
+      "largest_class_mean_abs_shap": 0.41983634920778057
+    }
+  ],
+  "additivity": [
+    {
+      "fold": 1,
+      "mean_abs_error": 5.42764322375433e-07,
+      "p99_abs_error": 2.0297669061619676e-06,
+      "max_abs_error": 3.759087576327147e-06
+    },
+    {
+      "fold": 2,
+      "mean_abs_error": 4.904951980380348e-07,
+      "p99_abs_error": 2.285555920025218e-06,
+      "max_abs_error": 3.1362330901174573e-06
+    },
+    {
+      "fold": 3,
+      "mean_abs_error": 5.198762484010584e-07,
+      "p99_abs_error": 2.1689596860596794e-06,
+      "max_abs_error": 3.1315844353230204e-06
+    },
+    {
+      "fold": 4,
+      "mean_abs_error": 4.975288830403694e-07,
+      "p99_abs_error": 2.000808308366686e-06,
+      "max_abs_error": 2.567661340435734e-06
+    },
+    {
+      "fold": 5,
+      "mean_abs_error": 4.743769475605101e-07,
+      "p99_abs_error": 1.8150522282667225e-06,
+      "max_abs_error": 2.6066272766911425e-06
+    },
+    {
+      "fold": 6,
+      "mean_abs_error": 5.125198417961959e-07,
+      "p99_abs_error": 1.8504153422327368e-06,
+      "max_abs_error": 2.6873535716731567e-06
+    },
+    {
+      "fold": 7,
+      "mean_abs_error": 4.7228549154472906e-07,
+      "p99_abs_error": 1.8548434672993607e-06,
+      "max_abs_error": 3.3668770811345894e-06
+    },
+    {
+      "fold": 8,
+      "mean_abs_error": 4.846804897972055e-07,
+      "p99_abs_error": 1.844239709498652e-06,
+      "max_abs_error": 2.480646344338311e-06
+    },
+    {
+      "fold": 9,
+      "mean_abs_error": 5.217354345493025e-07,
+      "p99_abs_error": 1.9999188270958264e-06,
+      "max_abs_error": 2.5094859665841796e-06
+    },
+    {
+      "fold": 10,
+      "mean_abs_error": 5.355797677155907e-07,
+      "p99_abs_error": 2.270971822326829e-06,
+      "max_abs_error": 3.3991632335528266e-06
+    }
+  ],
+  "validation_checks": {
+    "parent_experiment_complete_and_verified": true,
+    "feature_source_hash_matches_parent_manifest": true,
+    "exact_496_feature_order_matches_all_sources": true,
+    "stored_assignments_cover_each_window_exactly_once": true,
+    "each_trial_has_exactly_one_test_fold": true,
+    "xgboost_oof_rows_match_stored_assignments": true,
+    "exactly_four_classes_in_consistent_order": true,
+    "all_ten_saved_fold_pipelines_reused_without_refitting": true,
+    "zero_trial_overlap_within_every_fold": true,
+    "reloaded_predictions_match_stored_oof_predictions": true,
+    "each_oof_window_explained_exactly_once": true,
+    "final_shap_shape_is_7200_by_496_by_4": true,
+    "tree_shap_raw_margin_additivity_max_error_le_1e-4": true,
+    "saved_model_hashes_unchanged": true,
+    "all_importance_values_finite_and_nonnegative": true,
+    "exactly_20_unique_features_selected": true,
+    "same_top20_order_used_for_bar_plot_and_heatmap": true
+  },
+  "no_model_retrained": true,
+  "only_out_of_fold_test_windows_explained": true,
+  "model_sha256": {
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_01.joblib": "f7054c4398e7d1c6ee9a4e6d545abe9a650b36847eb34ff50ca979bd9112368f",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_02.joblib": "a249ea62dde85d0a1d6e5d1fb849e4f967ff19fc976ad99d8cd33a617fe813e9",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_03.joblib": "ccc149be935cb0c7179e2de333e5fe6a3abb02d0a5d66a33cd4dab4a3af0d1a3",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_04.joblib": "70ce85159ede9f839380e836ba3fa907fc8fea004fbb7771e79366d7691ed86e",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_05.joblib": "8e5b8b1ad8f77597d53af6c4f1867c34ca292c26f66aec29b9a4a37b51302d5a",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_06.joblib": "cb9741ffafd4e98c0c5f4c5166d3cee92426d74a7963ca1d4198e09e856d9880",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_07.joblib": "8abef534ea5d9454183cf38ed7338499fe289b6c71355dc989e229e668f8b78b",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_08.joblib": "b4e049847494e862b2b78e483a94f4e12a079de00b5d415a608de50db47adc65",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_09.joblib": "c4615a921018182063ba2900bf0228018c212d87499bdf25df28f52a2b881703",
+    "saved_models/minmax_10fold_trial_grouped/xgboost/fold_10.joblib": "b9f061635468af83a324bfda0f39b56e2b8df997205fe82ce83cc7ba7607f2a9"
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "xgboost": "3.2.0",
+    "shap": "0.52.0",
+    "matplotlib": "3.10.7",
+    "joblib": "1.5.2"
+  },
+  "outputs": {
+    "top20_csv": "outputs/minmax_10fold_trial_grouped/shap/xgboost_top20_shap.csv",
+    "all_feature_csv": "outputs/minmax_10fold_trial_grouped/shap/xgboost_all_feature_shap.csv",
+    "feature_name_mapping": "outputs/minmax_10fold_trial_grouped/shap/feature_name_mapping.csv",
+    "additivity_checks": "outputs/minmax_10fold_trial_grouped/shap/xgboost_shap_additivity_checks.csv",
+    "global_bar_png": "outputs/minmax_10fold_trial_grouped/shap/xgboost_global_top20_shap.png",
+    "global_bar_pdf": "outputs/minmax_10fold_trial_grouped/shap/xgboost_global_top20_shap.pdf",
+    "classwise_heatmap_png": "outputs/minmax_10fold_trial_grouped/shap/xgboost_classwise_top20_shap_heatmap.png",
+    "classwise_heatmap_pdf": "outputs/minmax_10fold_trial_grouped/shap/xgboost_classwise_top20_shap_heatmap.pdf",
+    "updated_notebook": "EEG Deception Results.ipynb"
+  }
+}

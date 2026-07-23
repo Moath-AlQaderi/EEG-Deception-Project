@@ -1,0 +1,23 @@
+MINMAX 10-FOLD TRIAL-GROUPED EXPERIMENT SUMMARY
+Feature-matrix shape: (7200, 496)
+Unique trials: 800
+Unique participants: 48
+Unique sessions: 17
+Window class distribution (external labels): {'1': 1737, '2': 1899, '3': 1755, '4': 1809}
+Splitter: StratifiedGroupKFold(n_splits=10, shuffle=True, random_state=42)
+Trial overlap in every fold: 0
+Average overlapping participants/fold: 45.20
+Best model by pooled trial macro F1: xgboost
+Pooled trial accuracy: 0.968750
+Pooled trial macro F1: 0.968523
+Pooled trial weighted F1: 0.968748
+Pooled trial Cohen's kappa: 0.958317
+Best-model trial fold accuracy mean ± std: 0.968750 ± 0.021449
+Best-model trial fold macro F1 mean ± std: 0.967824 ± 0.022719
+Best-model trial fold weighted F1 mean ± std: 0.968820 ± 0.021284
+Best-model trial fold kappa mean ± std: 0.958152 ± 0.028753
+Output directory: C:\Users\ADMIN\Desktop\EEG Deception Project\outputs\minmax_10fold_trial_grouped
+Participant overlap is permitted here; these scores do not demonstrate generalization to unseen participants.
+This is not a controlled scaler comparison: StandardScaler was replaced with MinMaxScaler for the five previously scaled models (and unscaled tree models now also use MinMaxScaler).
+At the same time, the fixed subject-wise holdout was replaced with participant-overlapping, trial-grouped 10-fold cross-validation.
+Reproduce: .\.venv\Scripts\python.exe scripts\run_minmax_10fold.py --features outputs/window_features.csv --output-dir outputs/minmax_10fold_trial_grouped --models-dir saved_models/minmax_10fold_trial_grouped --seed 42
